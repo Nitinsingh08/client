@@ -1,0 +1,113 @@
+*,
+html {
+    background-color: #F9F2DB !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* Pages */
+
+.home-page {
+    background-color: #F9F2DB !important;
+}
+
+
+/* BUTTONS */
+
+.blacklist {
+    width: 100px !important;
+}
+
+.nav-link {
+    padding: 1px 5px !important;
+    font-weight: 400 !important;
+    background-color: #302725 !important;
+    color: white !important;
+    margin: 0 4px;
+    font-size: 14px !important;
+}
+
+.nav-link:hover {
+    background-color: #DD2836 !important;
+}
+
+
+/* BUTTONS */
+
+
+/* HEADINGS */
+
+.heading {
+    font-weight: 700 !important;
+}
+
+.heading,
+p {
+    color: #302725 !important;
+}
+
+p {
+    font-weight: 500 !important;
+}
+
+h6 {
+    color: #C9AF90 !important;
+    font-weight: 600 !important;
+}
+
+
+/* HEADINGS */
+
+.home-page {
+    margin-top: 45px;
+}
+
+img,
+.rectangle,
+.card {
+    width: 210px !important;
+}
+
+.rectangle,
+.card {
+    height: 211px;
+}
+
+.rectangle {
+    background-color: #302725 !important;
+}
+
+.card-body {
+    padding-left: 0px !important;
+    padding-right: 1px !important;
+}
+
+.card-text {
+    font-size: 14px !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.animate__animated .animate__fadeIn {
+    --animation-duration: 5s !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nft-section {
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .card {
+        text-align: center !important;
+        align-items: center !important;
+        margin-left: 40px !important;
+    }
+    .navbar-brand {
+        margin-left: 8px !important;
+    }
+    .nav-link {
+        padding: none !important;
+    }
+}
